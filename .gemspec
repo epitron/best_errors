@@ -14,9 +14,10 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/epitron/best_errors"
   s.licenses    = ["WTFPL"]
 
-  s.files = []
+  s.files            = ["README.md"]
+  s.extra_rdoc_files = ["README.md"]
 
   s.rubygems_version = "2.4.5"
 
-  s.add_dependency("binding_of_caller", "~> 0.7")
+  s.add_dependency "binding_of_caller", "~> 0.7"
 end
