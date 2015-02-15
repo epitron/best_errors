@@ -14,8 +14,9 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/epitron/best_errors"
   s.licenses    = ["WTFPL"]
 
-  s.files            = ["README.md"]
+  s.files            = `git ls-files`.split($/)
   s.extra_rdoc_files = ["README.md"]
+  s.require_paths    = ["lib"]
 
   s.rubygems_version = "2.4.5"
 
